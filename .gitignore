@@ -1,0 +1,35 @@
+#========================
+# Wazuh certs/secrets
+#========================
+*.pem
+*.key
+*.crt
+*.csr
+
+# Wazuh configs
+wazuh-docker/single-node/config/
+
+#========================
+# Docker
+#========================
+*.log
+docker-data/
+
+#========================
+# Python
+#========================
+__pycache__/
+*.pyc
+venv/
+.env
+
+#========================
+# VSCode
+#========================
+.vscode/
+
+#========================
+# OS shenanigans
+#========================
+.DS_Store
+Thumbs.db
